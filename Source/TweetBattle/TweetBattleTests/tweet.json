@@ -1,0 +1,97 @@
+{
+    "created_at":"Wed Mar 12 03:16:31 +0000 2014",
+    "id":443586306493665280,
+    "id_str":"443586306493665280",
+    "text":"Where is #Coldplay? Maybe this is the greatest Rick Roll ever pulled. #itunesfestival #SXSW",
+    "source":"\u003ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e",
+    "truncated":false,
+    "in_reply_to_status_id":null,
+    "in_reply_to_status_id_str":null,
+    "in_reply_to_user_id":null,
+    "in_reply_to_user_id_str":null,
+    "in_reply_to_screen_name":null,
+    "user":{
+        "id":633489730,
+        "id_str":"633489730",
+        "name":"Greg Rouleau",
+        "screen_name":"ReelTrue",
+        "location":"Philadelphia, PA",
+        "url":"http:\/\/www.facebook.com\/ReelTrue",
+        "description":"Director, Editor, Writer for ReelTrue video productions.  Part-time film blogger\/reviewer.  I like to talk about movies and WWE on here.",
+        "protected":false,
+        "followers_count":73,
+        "friends_count":217,
+        "listed_count":1,
+        "created_at":"Thu Jul 12 05:29:58 +0000 2012",
+        "favourites_count":46,
+        "utc_offset":null,
+        "time_zone":null,
+        "geo_enabled":true,
+        "verified":false,
+        "statuses_count":694,
+        "lang":"en",
+        "contributors_enabled":false,
+        "is_translator":false,
+        "is_translation_enabled":false,
+        "profile_background_color":"1A1B1F",
+        "profile_background_image_url":"http:\/\/pbs.twimg.com\/profile_background_images\/378800000054806919\/48ceaa0b4bd2635b900ca67b5e398c0d.jpeg",
+        "profile_background_image_url_https":"https:\/\/pbs.twimg.com\/profile_background_images\/378800000054806919\/48ceaa0b4bd2635b900ca67b5e398c0d.jpeg",
+        "profile_background_tile":true,
+        "profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/378800000652825054\/f7dd6ad2a48faa68bdbaa5f1ba8719dd_normal.jpeg",
+        "profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/378800000652825054\/f7dd6ad2a48faa68bdbaa5f1ba8719dd_normal.jpeg",
+        "profile_link_color":"2FC2EF",
+        "profile_sidebar_border_color":"FFFFFF",
+        "profile_sidebar_fill_color":"DDEEF6",
+        "profile_text_color":"333333",
+        "profile_use_background_image":true,
+        "default_profile":false,
+        "default_profile_image":false,
+        "following":null,
+        "follow_request_sent":null,
+        "notifications":null
+    },
+    "geo":null,
+    "coordinates":null,
+    "place":null,
+    "contributors":null,
+    "retweet_count":0,
+    "favorite_count":0,
+    "entities":{
+        "hashtags":[
+                    {
+                    "text":"Coldplay",
+                    "indices":[
+                               9,
+                               18
+                               ]
+                    },
+                    {
+                    "text":"itunesfestival",
+                    "indices":[
+                               70,
+                               85
+                               ]
+                    },
+                    {
+                    "text":"SXSW",
+                    "indices":[
+                               86,
+                               91
+                               ]
+                    }
+                    ],
+        "symbols":[
+        
+        ],
+        "urls":[
+        
+        ],
+        "user_mentions":[
+        
+        ]
+    },
+    "favorited":false,
+    "retweeted":false,
+    "filter_level":"medium",
+    "lang":"en"
+}

@@ -1,0 +1,3 @@
+[submodule "Source/TweetBattle/Mantle"]
+	path = Source/TweetBattle/Mantle
+	url = https://github.com/MantleFramework/Mantle.git
