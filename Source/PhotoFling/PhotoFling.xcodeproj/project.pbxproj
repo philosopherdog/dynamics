@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227B9D6918DB4E4800FA9045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227B9D6818DB4E4800FA9045 /* Foundation.framework */; };
+		227B9D6B18DB4E4800FA9045 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227B9D6A18DB4E4800FA9045 /* CoreGraphics.framework */; };
+		227B9D6D18DB4E4800FA9045 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227B9D6C18DB4E4800FA9045 /* UIKit.framework */; };
+		227B9D7318DB4E4800FA9045 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 227B9D7118DB4E4800FA9045 /* InfoPlist.strings */; };
+		227B9D7518DB4E4800FA9045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 227B9D7418DB4E4800FA9045 /* main.m */; };
+		227B9D7918DB4E4800FA9045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 227B9D7818DB4E4800FA9045 /* AppDelegate.m */; };
+		227B9D7B18DB4E4800FA9045 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227B9D7A18DB4E4800FA9045 /* Images.xcassets */; };
+		227B9D8218DB4E4800FA9045 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227B9D8118DB4E4800FA9045 /* XCTest.framework */; };
+		227B9D8318DB4E4800FA9045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227B9D6818DB4E4800FA9045 /* Foundation.framework */; };
+		227B9D8418DB4E4800FA9045 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227B9D6C18DB4E4800FA9045 /* UIKit.framework */; };
+		227B9D8C18DB4E4800FA9045 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 227B9D8A18DB4E4800FA9045 /* InfoPlist.strings */; };
+		227B9D8E18DB4E4800FA9045 /* PhotoFlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227B9D8D18DB4E4800FA9045 /* PhotoFlingTests.m */; };
+		227B9D9818DB4E8700FA9045 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227B9D9718DB4E8700FA9045 /* QuartzCore.framework */; };
+		227B9DA218DB4ED800FA9045 /* FadeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 227B9D9A18DB4ED800FA9045 /* FadeTransition.m */; };
+		227B9DA318DB4ED800FA9045 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227B9D9B18DB4ED800FA9045 /* MainStoryboard.storyboard */; };
+		227B9DA418DB4ED800FA9045 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227B9D9D18DB4ED800FA9045 /* MainViewController.m */; };
+		227B9DA518DB4ED800FA9045 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227B9D9F18DB4ED800FA9045 /* PhotoViewController.m */; };
+		227B9DA618DB4ED800FA9045 /* PinchTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 227B9DA118DB4ED800FA9045 /* PinchTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		227B9D8518DB4E4800FA9045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227B9D5D18DB4E4800FA9045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227B9D6418DB4E4800FA9045;
+			remoteInfo = PhotoFling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		227B9D6518DB4E4800FA9045 /* PhotoFling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227B9D6818DB4E4800FA9045 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		227B9D6A18DB4E4800FA9045 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		227B9D6C18DB4E4800FA9045 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		227B9D7018DB4E4800FA9045 /* PhotoFling-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoFling-Info.plist"; sourceTree = "<group>"; };
+		227B9D7218DB4E4800FA9045 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		227B9D7418DB4E4800FA9045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		227B9D7618DB4E4800FA9045 /* PhotoFling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoFling-Prefix.pch"; sourceTree = "<group>"; };
+		227B9D7718DB4E4800FA9045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		227B9D7818DB4E4800FA9045 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		227B9D7A18DB4E4800FA9045 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		227B9D8018DB4E4800FA9045 /* PhotoFlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		227B9D8118DB4E4800FA9045 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		227B9D8918DB4E4800FA9045 /* PhotoFlingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoFlingTests-Info.plist"; sourceTree = "<group>"; };
+		227B9D8B18DB4E4800FA9045 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		227B9D8D18DB4E4800FA9045 /* PhotoFlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFlingTests.m; sourceTree = "<group>"; };
+		227B9D9718DB4E8700FA9045 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		227B9D9918DB4ED800FA9045 /* FadeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeTransition.h; sourceTree = "<group>"; };
+		227B9D9A18DB4ED800FA9045 /* FadeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeTransition.m; sourceTree = "<group>"; };
+		227B9D9B18DB4ED800FA9045 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		227B9D9C18DB4ED800FA9045 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		227B9D9D18DB4ED800FA9045 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		227B9D9E18DB4ED800FA9045 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		227B9D9F18DB4ED800FA9045 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		227B9DA018DB4ED800FA9045 /* PinchTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchTransition.h; sourceTree = "<group>"; };
+		227B9DA118DB4ED800FA9045 /* PinchTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchTransition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227B9D6218DB4E4800FA9045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227B9D9818DB4E8700FA9045 /* QuartzCore.framework in Frameworks */,
+				227B9D6B18DB4E4800FA9045 /* CoreGraphics.framework in Frameworks */,
+				227B9D6D18DB4E4800FA9045 /* UIKit.framework in Frameworks */,
+				227B9D6918DB4E4800FA9045 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227B9D7D18DB4E4800FA9045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227B9D8218DB4E4800FA9045 /* XCTest.framework in Frameworks */,
+				227B9D8418DB4E4800FA9045 /* UIKit.framework in Frameworks */,
+				227B9D8318DB4E4800FA9045 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227B9D5C18DB4E4800FA9045 = {
+			isa = PBXGroup;
+			children = (
+				227B9D6E18DB4E4800FA9045 /* PhotoFling */,
+				227B9D8718DB4E4800FA9045 /* PhotoFlingTests */,
+				227B9D6718DB4E4800FA9045 /* Frameworks */,
+				227B9D6618DB4E4800FA9045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227B9D6618DB4E4800FA9045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227B9D6518DB4E4800FA9045 /* PhotoFling.app */,
+				227B9D8018DB4E4800FA9045 /* PhotoFlingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227B9D6718DB4E4800FA9045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227B9D9718DB4E8700FA9045 /* QuartzCore.framework */,
+				227B9D6818DB4E4800FA9045 /* Foundation.framework */,
+				227B9D6A18DB4E4800FA9045 /* CoreGraphics.framework */,
+				227B9D6C18DB4E4800FA9045 /* UIKit.framework */,
+				227B9D8118DB4E4800FA9045 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		227B9D6E18DB4E4800FA9045 /* PhotoFling */ = {
+			isa = PBXGroup;
+			children = (
+				227B9D7718DB4E4800FA9045 /* AppDelegate.h */,
+				227B9D7818DB4E4800FA9045 /* AppDelegate.m */,
+				227B9D9918DB4ED800FA9045 /* FadeTransition.h */,
+				227B9D9A18DB4ED800FA9045 /* FadeTransition.m */,
+				227B9D7A18DB4E4800FA9045 /* Images.xcassets */,
+				227B9D9B18DB4ED800FA9045 /* MainStoryboard.storyboard */,
+				227B9D9C18DB4ED800FA9045 /* MainViewController.h */,
+				227B9D9D18DB4ED800FA9045 /* MainViewController.m */,
+				227B9D9E18DB4ED800FA9045 /* PhotoViewController.h */,
+				227B9D9F18DB4ED800FA9045 /* PhotoViewController.m */,
+				227B9DA018DB4ED800FA9045 /* PinchTransition.h */,
+				227B9DA118DB4ED800FA9045 /* PinchTransition.m */,
+				227B9D6F18DB4E4800FA9045 /* Supporting Files */,
+			);
+			path = PhotoFling;
+			sourceTree = "<group>";
+		};
+		227B9D6F18DB4E4800FA9045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227B9D7018DB4E4800FA9045 /* PhotoFling-Info.plist */,
+				227B9D7118DB4E4800FA9045 /* InfoPlist.strings */,
+				227B9D7418DB4E4800FA9045 /* main.m */,
+				227B9D7618DB4E4800FA9045 /* PhotoFling-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		227B9D8718DB4E4800FA9045 /* PhotoFlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				227B9D8D18DB4E4800FA9045 /* PhotoFlingTests.m */,
+				227B9D8818DB4E4800FA9045 /* Supporting Files */,
+			);
+			path = PhotoFlingTests;
+			sourceTree = "<group>";
+		};
+		227B9D8818DB4E4800FA9045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				227B9D8918DB4E4800FA9045 /* PhotoFlingTests-Info.plist */,
+				227B9D8A18DB4E4800FA9045 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227B9D6418DB4E4800FA9045 /* PhotoFling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227B9D9118DB4E4800FA9045 /* Build configuration list for PBXNativeTarget "PhotoFling" */;
+			buildPhases = (
+				227B9D6118DB4E4800FA9045 /* Sources */,
+				227B9D6218DB4E4800FA9045 /* Frameworks */,
+				227B9D6318DB4E4800FA9045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoFling;
+			productName = PhotoFling;
+			productReference = 227B9D6518DB4E4800FA9045 /* PhotoFling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227B9D7F18DB4E4800FA9045 /* PhotoFlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227B9D9418DB4E4800FA9045 /* Build configuration list for PBXNativeTarget "PhotoFlingTests" */;
+			buildPhases = (
+				227B9D7C18DB4E4800FA9045 /* Sources */,
+				227B9D7D18DB4E4800FA9045 /* Frameworks */,
+				227B9D7E18DB4E4800FA9045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227B9D8618DB4E4800FA9045 /* PBXTargetDependency */,
+			);
+			name = PhotoFlingTests;
+			productName = PhotoFlingTests;
+			productReference = 227B9D8018DB4E4800FA9045 /* PhotoFlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227B9D5D18DB4E4800FA9045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Livefront;
+				TargetAttributes = {
+					227B9D7F18DB4E4800FA9045 = {
+						TestTargetID = 227B9D6418DB4E4800FA9045;
+					};
+				};
+			};
+			buildConfigurationList = 227B9D6018DB4E4800FA9045 /* Build configuration list for PBXProject "PhotoFling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 227B9D5C18DB4E4800FA9045;
+			productRefGroup = 227B9D6618DB4E4800FA9045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227B9D6418DB4E4800FA9045 /* PhotoFling */,
+				227B9D7F18DB4E4800FA9045 /* PhotoFlingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227B9D6318DB4E4800FA9045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227B9DA318DB4ED800FA9045 /* MainStoryboard.storyboard in Resources */,
+				227B9D7318DB4E4800FA9045 /* InfoPlist.strings in Resources */,
+				227B9D7B18DB4E4800FA9045 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227B9D7E18DB4E4800FA9045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227B9D8C18DB4E4800FA9045 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227B9D6118DB4E4800FA9045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227B9D7918DB4E4800FA9045 /* AppDelegate.m in Sources */,
+				227B9DA218DB4ED800FA9045 /* FadeTransition.m in Sources */,
+				227B9D7518DB4E4800FA9045 /* main.m in Sources */,
+				227B9DA418DB4ED800FA9045 /* MainViewController.m in Sources */,
+				227B9DA518DB4ED800FA9045 /* PhotoViewController.m in Sources */,
+				227B9DA618DB4ED800FA9045 /* PinchTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227B9D7C18DB4E4800FA9045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227B9D8E18DB4E4800FA9045 /* PhotoFlingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		227B9D8618DB4E4800FA9045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227B9D6418DB4E4800FA9045 /* PhotoFling */;
+			targetProxy = 227B9D8518DB4E4800FA9045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		227B9D7118DB4E4800FA9045 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227B9D7218DB4E4800FA9045 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		227B9D8A18DB4E4800FA9045 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227B9D8B18DB4E4800FA9045 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227B9D8F18DB4E4800FA9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		227B9D9018DB4E4800FA9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227B9D9218DB4E4800FA9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoFling/PhotoFling-Prefix.pch";
+				INFOPLIST_FILE = "PhotoFling/PhotoFling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		227B9D9318DB4E4800FA9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoFling/PhotoFling-Prefix.pch";
+				INFOPLIST_FILE = "PhotoFling/PhotoFling-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		227B9D9518DB4E4800FA9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoFling.app/PhotoFling";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoFling/PhotoFling-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhotoFlingTests/PhotoFlingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		227B9D9618DB4E4800FA9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoFling.app/PhotoFling";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoFling/PhotoFling-Prefix.pch";
+				INFOPLIST_FILE = "PhotoFlingTests/PhotoFlingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227B9D6018DB4E4800FA9045 /* Build configuration list for PBXProject "PhotoFling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227B9D8F18DB4E4800FA9045 /* Debug */,
+				227B9D9018DB4E4800FA9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227B9D9118DB4E4800FA9045 /* Build configuration list for PBXNativeTarget "PhotoFling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227B9D9218DB4E4800FA9045 /* Debug */,
+				227B9D9318DB4E4800FA9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		227B9D9418DB4E4800FA9045 /* Build configuration list for PBXNativeTarget "PhotoFlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227B9D9518DB4E4800FA9045 /* Debug */,
+				227B9D9618DB4E4800FA9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227B9D5D18DB4E4800FA9045 /* Project object */;
+}
