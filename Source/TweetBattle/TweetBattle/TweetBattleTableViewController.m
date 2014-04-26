@@ -15,9 +15,8 @@
     
     if (self)
     {
-        self.battles = @[
-                         @[@"#awesome", @"#cool"],                         
-                         @[@"#mobilemarchadam", @"#mobilemarchsam"],
+        self.battles = @[                         
+                         @[@"#teamadam", @"#teamsam"],
                          @[@"#android", @"#iphone"]
                          ];
     }

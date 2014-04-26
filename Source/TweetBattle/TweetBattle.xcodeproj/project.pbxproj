@@ -285,7 +285,7 @@
 		66141CA918CB7E38000FC906 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Livefront;
 				TargetAttributes = {
 					66141CD118CB7E38000FC906 = {
@@ -445,7 +445,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -485,7 +484,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -548,20 +546,19 @@
 		66141CE718CB7E38000FC906 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TweetCollection.app/TweetCollection";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TweetBattle.app/TweetBattle";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TweetCollection/TweetCollection-Prefix.pch";
+				GCC_PREFIX_HEADER = "TweetBattle/TweetBattle-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TweetCollectionTests/TweetBattleTests-Info.plist";
+				INFOPLIST_FILE = "TweetBattleTests/TweetBattleTests-Info.plist";
 				PRODUCT_NAME = TweetBattleTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -571,7 +568,6 @@
 		66141CE818CB7E38000FC906 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TweetCollection.app/TweetCollection";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -579,8 +575,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TweetCollection/TweetCollection-Prefix.pch";
-				INFOPLIST_FILE = "TweetCollectionTests/TweetBattleTests-Info.plist";
+				GCC_PREFIX_HEADER = "TweetBattle/TweetBattle-Prefix.pch";
+				INFOPLIST_FILE = "TweetBattleTests/TweetBattleTests-Info.plist";
 				PRODUCT_NAME = TweetBattleTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
